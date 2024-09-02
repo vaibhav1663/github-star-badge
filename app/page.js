@@ -125,7 +125,7 @@ export default function Home() {
           <div className="relative overflow-hidden rounded-lg border border-gray-300 dark:border-gray-800 shadow">
             <div className="absolute w-full top-0 left-0 text-sm flex justify-between items-center p-1.5 px-2 bg-gray-50 dark:text-gray-100 dark:bg-gray-800">
               <p>Install the package</p>
-              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(`import { GithubBadge, GithubBasicBadge } from 'github-star-badge';`) }}>
+              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(`npm install github-star-badge`) }}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
                 </svg>
@@ -139,7 +139,7 @@ export default function Home() {
           <div className="relative overflow-hidden rounded-lg border border-gray-300 dark:border-gray-800 shadow ">
             <div className="absolute w-full top-0 left-0 text-sm flex justify-between items-center p-1.5 px-2 bg-gray-50 dark:text-gray-100 dark:bg-gray-800">
               <p>Steal the badge with ꝏ aura</p>
-              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(``) }}>
+              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(badgeText) }}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
                 </svg>
@@ -159,7 +159,7 @@ export default function Home() {
           <div className="relative overflow-hidden rounded-lg border border-gray-300 dark:border-gray-800 shadow">
             <div className="absolute w-full top-0 left-0 text-sm flex justify-between items-center p-1.5 px-2 bg-gray-50 dark:text-gray-100 dark:bg-gray-800">
               <p>Get the badge with 0 aura</p>
-              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(``) }}>
+              <button className="p-1.5 bg-gray-100 dark:bg-gray-800 rounded-md hover:bg-gray-200 dark:hover:bg-gray-600" onClick={() => { handleCopy(basicBadgeText) }}>
                 <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="currentColor" viewBox="0 0 16 16">
                   <path fill-rule="evenodd" d="M4 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 5a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1v-1h1v1a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1v1z" />
                 </svg>
